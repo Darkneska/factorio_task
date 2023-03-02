@@ -1,8 +1,8 @@
-(EDA)Exploration Data Analysis
-Analýza datových souborů anonymizovaných záznamů příchozích pacientů na pohotovostní příjem
+#(EDA)Exploration Data Analysis
+#Analýza datových souborů anonymizovaných záznamů příchozích pacientů na pohotovostní příjem
 
 Tasks:
-# Proveďte prvotní analýzu datové sady (EDA) a své nálezy zdokumentujte- viz. jednotlivé body:
+- Proveďte prvotní analýzu datové sady (EDA) a své nálezy zdokumentujte- viz. jednotlivé body:
 - Vytvořte prediktivní model příchodu pacientů na základě těchto dat.
 - Ověřte a prezentujte jeho vlastnosti (jeden graf může vydat za mnoho slov).
 - Aplikaci s prediktivním modelem dockerizujte.
