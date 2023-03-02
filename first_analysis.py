@@ -62,10 +62,10 @@ df['timestamp'] = pd.to_datetime(df['datetime'], format='%Y-%m-%d %H:%M:%S')
 # Převod sloupce s timestampy na sloupec s měsícem
 df['month'] = pd.to_datetime(df['timestamp']).dt.month
 #
-# Výpočet počtu výskytů každé hodiny
+# Výpočet počtu výskytů každý měsíc
 counts = df['month'].value_counts()
 #
-# Vykreslení grafu s počtem výskytů pro každou hodinu
+# Vykreslení grafu s počtem výskytů pro každý měsíc
 fig, ax = plt.subplots()
 ax.bar(counts.index, counts.values, color = 'red')
 ax.set_xticks(range(1, 13))
