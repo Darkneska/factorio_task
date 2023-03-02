@@ -2,10 +2,10 @@
 Analýza datových souborů anonymizovaných záznamů příchozích pacientů na pohotovostní příjem
 
 Tasks:
-- Proveďte prvotní analýzu datové sady (EDA) a své nálezy zdokumentujte- viz. jednotlivé body:
-# Vytvořte prediktivní model příchodu pacientů na základě těchto dat.
-# Ověřte a prezentujte jeho vlastnosti (jeden graf může vydat za mnoho slov).
-# Aplikaci s prediktivním modelem dockerizujte.
+# Proveďte prvotní analýzu datové sady (EDA) a své nálezy zdokumentujte- viz. jednotlivé body:
+- Vytvořte prediktivní model příchodu pacientů na základě těchto dat.
+- Ověřte a prezentujte jeho vlastnosti (jeden graf může vydat za mnoho slov).
+- Aplikaci s prediktivním modelem dockerizujte.
 
 1) Data analyzována pomocí pandas a Matplotlib -pip install requirements.txt
 2) Je zde (5051 řádku, 7 sloupců)
